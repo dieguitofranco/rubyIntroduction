@@ -10,6 +10,8 @@ toys = ["teddy", "Axel", "slash", "james"]
 puts toys
 print toys
 p toys
+p toys.fetch(2)
+p toys.fetch(200, "unknow")
 
 things = [4, true, "hello", 4.0]
 print things
