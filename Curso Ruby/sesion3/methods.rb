@@ -1,0 +1,6 @@
+p 3.between?(1,5)
+p 6.between?(1,5)
+p 6.3.between?(1,50)
+p -10.5.between?(-20,5)
+p 'cat'.between?('ant', 'dog')
+p 'gnu'.between?('ant', 'dog')
