@@ -55,12 +55,11 @@ i=1
 until i>9
   puts i
   i += 1
-
 end
 
 
 
-def fizzbuzz(num)
+def fizz_buzz(num)
   i = 1
   while i < num
     if i % 5 == 0 && i % 3 == 0
@@ -75,7 +74,7 @@ def fizzbuzz(num)
     i += 1
   end
 end
-puts fizzbuzz(100)
+puts fizz_buzz(100)
 
 status = true
 while status

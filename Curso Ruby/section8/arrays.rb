@@ -32,8 +32,8 @@ p vect.length
 p vect.first(3)
 p vect.last(2)
 
-def returnLast (a)
+def return_Last (a)
   return a.last(1)
 end
 
-p returnLast(vect)
+p return_Last(vect)

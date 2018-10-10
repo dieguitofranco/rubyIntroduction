@@ -1,19 +1,19 @@
-def myName
+def my_Name
   puts "My name is Diego Franco"
 end
-myName
+my_Name
 
-def myNameParams(name,age)
+def my_Name_Params(name,age)
   puts "Hi my name is #{name} and I am #{age} years old"
 end
-myNameParams("Diego Franco",27)
+my_Name_Params("Diego Franco",27)
 
 def mult_number(n1,n2)
   return n1*n2
 end
 puts mult_number(2,10)
 
-def phonecall (number,int_code = 6 , area_code = 17001)
+def phone_call (number,int_code = 6 , area_code = 17001)
   puts "your Number is #{number} the code is #{int_code} and area code #{area_code}"
 end
 phonecall(3127921062)
