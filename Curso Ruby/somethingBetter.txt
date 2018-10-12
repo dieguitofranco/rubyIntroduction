@@ -1,0 +1,4 @@
+bla bla bla
+this will be appened to the end
+and no more line with file.printAnd anotherthis will be appened to the end
+and no more line with file.printAnd anotherother line
